@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --format progress-bar --require definitions progress-bar --publish-quiet integration/ --tags @t1"
+    "test": "cucumber-js --format progress-bar --require definitions --publish-quiet integration/ --tags @t1"
   },
   "author": "",
   "license": "ISC",
